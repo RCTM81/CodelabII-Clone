@@ -1,0 +1,236 @@
+.body-container {
+  background-color: white;
+  max-width: 900px;
+  margin: 40px auto 0;
+  padding: 40px;
+  text-align: left;
+}
+
+.body-container h1 {
+  font-size: 64px;
+  margin: 0;
+  color: black;
+}
+
+.body-container h2 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.introduction {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.article-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.article-columns h3 {
+  font-size: 22px;
+}
+
+.article-columns p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Main article container */
+.body-container {
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* Main heading */
+.body-container h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin: 0;
+  color: black;
+  text-align: left;
+}
+
+/* Subtitle */
+.body-container h2 {
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 0 0 25px;
+  color: black;
+  text-align: left;
+}
+
+/* Introduction */
+
+.body-container .introduction {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+/* Three article columns */
+.article-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  text-align: left;
+}
+
+
+.article-columns section {
+  text-align: left;
+}
+
+.article-columns h3 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.article-columns p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Album gallery */
+.album-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0;
+  margin-top: 40px;
+  margin-left: -40px;
+  margin-right: -40px;
+  width: calc(100% + 80px);
+  aspect-ratio: 2 / 1;
+}
+
+.album-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.album-gallery .featured-album {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* Author profile */
+.author-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 40px 0;
+  background-color: white;
+}
+
+/* Author text on the left */
+.author-information {
+  flex: 1;
+  text-align: left;
+}
+
+.author-information h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.author-information p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Circular author photo */
+.author-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Social media icons on the right */
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0;
+}
+
+.social-icons img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+
+/* Comments section */
+.comments-section {
+  margin-top: 50px;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding: 40px;
+  background-color: #e9e9e9;
+  text-align: left;
+}
+
+.comment {
+  margin-bottom: 25px;
+}
+
+.comment h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comment p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 0;
+}
+
+.comments-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.comments-section textarea {
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.comments-section button {
+  display: block;
+  padding: 12px 25px;
+  background-color: #14181d;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.comments-section button:hover {
+  background-color: #444444;
+}
